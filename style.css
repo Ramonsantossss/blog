@@ -41,3 +41,10 @@ footer {
 a {
   color: white;
 }
+
+a {
+  text-align: center;
+  padding: 5px;
+  margin-top: 6px;
+  
+}

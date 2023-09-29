@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding:0;
   background-color: #444;
-  font-style: italic;
+  font-style: none;
 }
 
 .titulo {
@@ -45,6 +45,21 @@ a {
 img {
   margin-top: 20px;
   border-radius: 50%;
-  width: 10%;
+  width: 20%;
   
+}
+
+
+/* Estilos para telas de PC (desktop) */
+@media screen and (max-width: 720px) {
+  img {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 50%;
+  }
+  /* Outros estilos para telas de PC aqui */
+}
+
+p{
+  text-align: center;
 }
